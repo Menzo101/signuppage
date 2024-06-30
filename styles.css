@@ -1,0 +1,198 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:roboto;
+}
+
+
+.bigcontainer{
+display: flex;
+ overflow: hidden; 
+
+
+}
+.container1{
+    width: 50%;
+    background-color: rgb(90, 7, 7);
+    height: 100vh;
+}
+.container1-content{
+    padding: 200px;
+}
+.container1-content h1{
+    font-size: 180px;
+    color: white;
+    line-height: 1.7;
+    font-weight: bold;
+    margin-bottom: 17px;
+}
+.container1-content p{
+    font-size: 80px;
+    color: white;
+    line-height: 1.7;
+}
+.container1-content img{
+    width: 2000px;
+    position: relative;
+    left: 400px;
+    top: 200px;
+}
+span{
+    color: gold;
+}
+.container2{
+    background-color: white;
+     width: 50%; 
+    padding: 5em 10em;
+}
+.content2{
+    margin-top: 10px;
+}
+.content2 h2{
+    float: right;
+    font-size: 58px;
+    padding: 0.6em;
+    border-radius: 70px;
+    background-color: rgb(237, 233, 233);
+}
+ .info{
+    margin: 200px 100px;
+    
+} 
+.info h1{
+    font-size: 5rem;
+    margin-bottom: 5px;
+}
+.info p{
+    font-size: 56px;
+    margin-top: 10px;
+    color: grey;
+}
+.forms{
+    margin-top: 90px;
+
+}
+label{
+    font-size: 50px;
+    color: grey;
+    margin-left: 20px;
+}
+input{
+      width: 100%;   
+    height: 200px;
+     /* margin: 26px;  */
+     margin: 50px;
+    border: none;
+    outline: none;
+    border: 0.5px solid grey;
+    border-radius: 30px;
+    font-size: 50px;
+     padding: 0 1em;
+    overflow: hidden;
+
+}
+.sign {
+    float: right;
+    font-size: 50px;
+    color: red;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.last{
+    background-color: red;
+    height: 5vh;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding: 1em 2em;
+    
+}
+.last h1{
+    font-size: 66px;
+    color: white;
+}
+@media (max-width: 420px){
+    body,html{
+        height: 500px;
+          }
+    .container1{
+        display: none;
+    }
+    .container2{
+        position: relative;
+        right: 250px;
+        
+    }
+    .content2 h2{
+        font-size: 13px;
+        position: relative;
+        left: 470px;
+        width: 100px;
+        padding: 1em 2em; 
+    }
+    .info{
+        position: relative;
+        bottom: 100px;
+    }
+    .forms{
+        position: relative;
+        bottom: 70px;
+    }
+    .info h1{
+        font-size: 34px;
+        width: 300px;
+    }
+    .info p{
+        font-size: 16px;
+        line-height: 1.7;
+        width: 300px;
+    }
+    label{
+        font-size: 14px;
+        color:grey;
+        position: relative;
+        right: 5px;
+        
+        /* color:gray; */
+   
+    }
+    
+    input{
+        width: 350px;
+        height: 50px;
+        position: relative;
+        right: 20px;
+        font-size: 16px;
+        margin: 20px;
+        border: 1px solid grey;
+        border-radius: 10px;    
+    }
+    input:active{
+        border: 1px solid rgb(6, 22, 91);
+    }
+    .sign{
+    position: relative;
+    left: 400px;
+    font-size: 14px; 
+    width: 200px; 
+    bottom: 50px; 
+    }
+    .last{
+        position: relative;
+        left: 120px;
+        width: 350px;
+        bottom: 290px;
+    
+    }
+    .last h1{
+        font-size: 15px;
+    }
+   
+    
+
+    
+}
